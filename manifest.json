@@ -3738,6 +3738,39 @@
       },
       {
         "type": "show",
+        "id": "What_about_",
+        "enabled": "enabled",
+        "name": "What about:",
+        "merged": false,
+        "keywords": [
+          "What about:"
+        ],
+        "eventId": "21"
+      },
+      {
+        "type": "show",
+        "id": "universal_partial_order_",
+        "enabled": "enabled",
+        "name": "universal partial order?",
+        "merged": false,
+        "keywords": [
+          "universal partial order?"
+        ],
+        "eventId": "22"
+      },
+      {
+        "type": "show",
+        "id": "atomless_Boolean_algebra_",
+        "enabled": "enabled",
+        "name": "atomless Boolean algebra?",
+        "merged": false,
+        "keywords": [
+          "atomless Boolean algebra?"
+        ],
+        "eventId": "23"
+      },
+      {
+        "type": "show",
         "id": "Group_9",
         "enabled": "enabled",
         "name": "full paper:",
@@ -3790,6 +3823,15 @@
         "opacity": 1
       },
       "slajds_": {
+        "opacity": 1
+      },
+      "What_about_": {
+        "opacity": 1
+      },
+      "universal_partial_order_": {
+        "opacity": 1
+      },
+      "atomless_Boolean_algebra_": {
         "opacity": 1
       }
     }
