@@ -2275,6 +2275,17 @@
               },
               {
                 "type": "show",
+                "id": "_",
+                "enabled": "enabled",
+                "name": ",",
+                "merged": true,
+                "keywords": [
+                  ","
+                ],
+                "eventId": "21"
+              },
+              {
+                "type": "show",
                 "id": "out_weights",
                 "enabled": "enabled",
                 "name": "out-weights",
@@ -2500,6 +2511,9 @@
                 "opacity": 1
               },
               "Line_50": {
+                "opacity": 1
+              },
+              "_": {
                 "opacity": 1
               }
             }
