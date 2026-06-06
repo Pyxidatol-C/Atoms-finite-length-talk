@@ -124,7 +124,7 @@
                 "id": "under_bijections_of___",
                 "enabled": "enabled",
                 "name": "under_bijections_of___",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "under_bijections_of___"
                 ],
@@ -135,7 +135,7 @@
                 "id": "Group_4",
                 "enabled": "enabled",
                 "name": "Group_4",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "1",
                   "2",
@@ -178,7 +178,7 @@
                   "4",
                   "5",
                   "6",
-                  "7",
+                  "7 ⋯",
                   "Group_3"
                 ],
                 "eventId": "5"
@@ -194,7 +194,7 @@
                   "4",
                   "5",
                   "6",
-                  "7",
+                  "7 ⋯",
                   "Group_2"
                 ],
                 "eventId": "6"
@@ -565,6 +565,7 @@
             "merged": false,
             "keywords": [
               "Research Programme",
+              "[...] where Q, Σ are A weighted automaton [...]",
               "[...] where Q, Σ are"
             ],
             "eventId": "3"
@@ -2067,7 +2068,7 @@
             "id": "nothing",
             "enabled": "enabled",
             "name": "sets not embedding any of { }",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "sets not embedding any of { }"
             ],
@@ -2090,7 +2091,7 @@
             "id": "Group_153",
             "enabled": "enabled",
             "name": "irreflexive",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "irreflexive",
               "and",
@@ -2124,6 +2125,17 @@
               "and"
             ],
             "eventId": "39"
+          },
+          {
+            "type": "show",
+            "id": "__",
+            "enabled": "enabled",
+            "name": ":( NOT free",
+            "merged": false,
+            "keywords": [
+              ":( NOT free"
+            ],
+            "eventId": "40"
           },
           {
             "type": "show",
@@ -2174,7 +2186,6 @@
           "Fraïssé limit",
           "of a free amalgamation class",
           "(ℕ, =)",
-          ":( NOT free",
           "free-amalg"
         ],
         "eventId": "16",
@@ -2207,6 +2218,9 @@
             "opacity": 1
           },
           "Group_155": {
+            "opacity": 1
+          },
+          "__": {
             "opacity": 1
           }
         }
