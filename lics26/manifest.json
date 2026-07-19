@@ -52,30 +52,31 @@
             "name": "≔ ℚ-vector space with basis { i | i ∈ ℕ }",
             "merged": false,
             "keywords": [
+              "∋ 1 – 2 + 4.5 9",
               "≔ ℝ-vector space with basis { i | i ∈ ℕ }",
-              "{",
-              "\"atoms\"",
               "≔ ℚ-vector space with basis { i | i ∈ ℕ }"
             ],
             "eventId": "3"
           },
           {
             "type": "show",
-            "id": "1___2___4_5_9",
+            "id": "Group_3",
             "enabled": "enabled",
-            "name": "∋ 1 – 2 + 4.5 9",
-            "merged": true,
+            "name": "\"atoms\"",
+            "merged": false,
             "keywords": [
-              "∋ 1 – 2 + 4.5 9"
+              "{",
+              "\"equality atoms\"",
+              "\"atoms\""
             ],
-            "eventId": "11"
+            "eventId": "14"
           },
           {
             "type": "show",
             "id": "Sym____acts_on_Lin____",
             "enabled": "enabled",
             "name": "Sym(ℕ) ⟳ ℕ",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "Sym(ℕ) ⟳ ℕ"
             ],
@@ -135,10 +136,10 @@
           "Group_13": {
             "opacity": 1
           },
-          "1___2___4_5_9": {
+          "Sym____acts_on_Lin____": {
             "opacity": 1
           },
-          "Sym____acts_on_Lin____": {
+          "Group_3": {
             "opacity": 1
           }
         }
@@ -196,6 +197,17 @@
           },
           {
             "type": "show",
+            "id": "spanned_by_all__i___i__s",
+            "enabled": "enabled",
+            "name": "= span of all (i - i')s",
+            "merged": false,
+            "keywords": [
+              "= span of all (i - i')s"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
             "id": "Text",
             "enabled": "enabled",
             "name": "... and no more!",
@@ -229,7 +241,7 @@
                 "id": "Group_32",
                 "enabled": "enabled",
                 "name": "1 – 2 + 4.5 9",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   ", say v = ",
                   "1 – 2 + 4.5 9"
@@ -486,14 +498,14 @@
           },
           {
             "type": "show",
-            "id": "spanned_by_all__i___i__s",
+            "id": "Text2",
             "enabled": "enabled",
-            "name": "= span of all (i - i')s",
+            "name": "⊆",
             "merged": false,
             "keywords": [
-              "= span of all (i - i')s"
+              "⊆"
             ],
-            "eventId": "7"
+            "eventId": "38"
           },
           {
             "type": "show",
@@ -587,6 +599,9 @@
             "opacity": 1
           },
           "Line_7": {
+            "opacity": 1
+          },
+          "Text2": {
             "opacity": 1
           }
         }
@@ -706,7 +721,7 @@
             "merged": false,
             "keywords": [
               "ℕ",
-              "infinite alphabet of data values",
+              "infinite alphabet of data values / atoms",
               "compared only for equality",
               "compared only for:"
             ],
@@ -739,7 +754,7 @@
             "id": "Lin__2",
             "enabled": "enabled",
             "name": "Lin(k × ℕ)",
-            "merged": false,
+            "merged": true,
             "keywords": [
               "Lin(k × ℕ)"
             ],
@@ -917,8 +932,9 @@
             "merged": false,
             "keywords": [
               "Sym(ℕ) ⋅ (1, 2)",
-              "= { (i, j)  |  i ≠ j }",
-              "⊇"
+              "⊆ { (i, j)  |  i ≠ j }",
+              "⊇",
+              "= { (i, j)  |  i ≠ j }"
             ],
             "eventId": "19"
           },
@@ -1347,7 +1363,7 @@
                 "id": "___l2",
                 "enabled": "enabled",
                 "name": " = l",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   " = l"
                 ],
@@ -1370,7 +1386,7 @@
                 "id": "f1__",
                 "enabled": "enabled",
                 "name": "f1 :",
-                "merged": false,
+                "merged": true,
                 "keywords": [
                   "f1 :"
                 ],
