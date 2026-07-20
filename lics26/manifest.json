@@ -442,56 +442,43 @@
             "children": [
               {
                 "type": "show",
-                "id": "Any_V__equivariant_Lin____containing_i___i__and__i_ai_i_also_contains___i_ai__1_2",
+                "id": "Group_35",
                 "enabled": "enabled",
                 "name": "also contains (∑i ai) 1.",
                 "merged": false,
                 "keywords": [
+                  "≡ ",
                   "also contains (∑i ai) 1."
                 ],
-                "eventId": "5"
+                "eventId": "6"
               },
               {
                 "type": "show",
-                "id": "Group_1",
+                "id": "Group_34",
                 "enabled": "enabled",
-                "name": "∑i ai i – ∑i ai (i - 1)",
+                "name": "∑i ai i – ∑i ai (i – 1)",
                 "merged": false,
                 "keywords": [
                   "Proof: ",
-                  "V contains ",
                   "∑i ai i – ∑i ai (i – 1)",
-                  "∑i ai i – ∑i ai (i - 1)"
-                ],
-                "eventId": "1"
-              },
-              {
-                "type": "show",
-                "id": "Group_12",
-                "enabled": "enabled",
-                "name": "∑i ai 1.",
-                "merged": false,
-                "keywords": [
                   "∑i ai 1.",
                   "= "
                 ],
-                "eventId": "4"
+                "eventId": "7"
               }
             ],
             "keywords": [
-              "Any V ≤eq Lin(ℕ) containing i – i' and ∑i ai i",
+              "∑i ai i",
+              "(∑i ai) 1",
               "Claim 2: ",
               "using cogs"
             ],
             "eventId": "2",
             "originalParams": {
-              "Group_1": {
+              "Group_35": {
                 "opacity": 1
               },
-              "Group_12": {
-                "opacity": 1
-              },
-              "Any_V__equivariant_Lin____containing_i___i__and__i_ai_i_also_contains___i_ai__1_2": {
+              "Group_34": {
                 "opacity": 1
               }
             }
@@ -721,7 +708,7 @@
             "merged": false,
             "keywords": [
               "ℕ",
-              "infinite alphabet of data values / atoms",
+              "infinite alphabet with atoms",
               "compared only for equality",
               "compared only for:"
             ],
@@ -773,14 +760,15 @@
           },
           {
             "type": "show",
-            "id": "_language_equivalence_is_decidable_",
+            "id": "Group_342",
             "enabled": "enabled",
             "name": "∴ language zeroness/equivalence is decidable.",
             "merged": false,
             "keywords": [
-              "∴ language zeroness/equivalence is decidable."
+              "∴ language zeroness/equivalence is decidable.",
+              "[Schützenberger]"
             ],
-            "eventId": "22"
+            "eventId": "32"
           },
           {
             "type": "show",
@@ -902,6 +890,9 @@
           },
           "has_length_k____2_1_": {
             "opacity": 1
+          },
+          "Group_342": {
+            "opacity": 1
           }
         }
       },
@@ -933,10 +924,20 @@
             "keywords": [
               "Sym(ℕ) ⋅ (1, 2)",
               "⊆ { (i, j)  |  i ≠ j }",
-              "⊇",
               "= { (i, j)  |  i ≠ j }"
             ],
             "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "_",
+            "enabled": "enabled",
+            "name": "⊇",
+            "merged": false,
+            "keywords": [
+              "⊇"
+            ],
+            "eventId": "30"
           },
           {
             "type": "show",
@@ -1417,6 +1418,17 @@
               },
               {
                 "type": "show",
+                "id": "Text",
+                "enabled": "enabled",
+                "name": "are linearly independent ",
+                "merged": false,
+                "keywords": [
+                  "are linearly independent "
+                ],
+                "eventId": "34"
+              },
+              {
+                "type": "show",
                 "id": "lin_eq_maps_",
                 "enabled": "enabled",
                 "name": "→lin eq's.",
@@ -1468,6 +1480,9 @@
                 "opacity": 1
               },
               "lin_eq_maps_": {
+                "opacity": 1
+              },
+              "Text": {
                 "opacity": 1
               }
             }
@@ -1736,6 +1751,9 @@
             "opacity": 1
           },
           "Some_terminologies_": {
+            "opacity": 1
+          },
+          "_": {
             "opacity": 1
           }
         }
@@ -2057,8 +2075,8 @@
             "name": "Witt's Lemma",
             "merged": false,
             "keywords": [
-              "✓",
-              "Witt's Lemma"
+              "Witt's Lemma",
+              "✓"
             ],
             "eventId": "53"
           },
