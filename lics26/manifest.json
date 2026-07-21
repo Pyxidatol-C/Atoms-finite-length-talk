@@ -33,10 +33,16 @@
         "merged": false,
         "children": [],
         "keywords": [
+          "Intense.",
+          "Chaotic?",
           "TYTUŁ"
         ],
         "eventId": "11",
-        "originalParams": {}
+        "originalParams": {
+          "Group_36": {
+            "opacity": 1
+          }
+        }
       },
       {
         "type": "child",
@@ -447,7 +453,7 @@
                 "name": "also contains (∑i ai) 1.",
                 "merged": false,
                 "keywords": [
-                  "≡ ",
+                  "   ≡   ",
                   "also contains (∑i ai) 1."
                 ],
                 "eventId": "6"
@@ -766,7 +772,7 @@
             "merged": false,
             "keywords": [
               "∴ language zeroness/equivalence is decidable.",
-              "[Schützenberger]"
+              "Schützenberger's Algorithm"
             ],
             "eventId": "32"
           },
@@ -1328,7 +1334,7 @@
                 "keywords": [
                   "Lin [n]2",
                   "   =     U1 ⊕ U2 ⊕ ⋯ ⊕ Ul",
-                  "eq subspacse of length 1",
+                  "eq subspaces of length 1",
                   "Maschke"
                 ],
                 "eventId": "23"
